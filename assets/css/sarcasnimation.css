@@ -1,0 +1,16 @@
+.sarcasmoution {
+  animation: fadeIn 2s;
+}
+
+.sarcasmoution-fade-out {
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

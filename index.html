@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Workgency &bullet; Agencia de Empleo, Publicidad, Compra y Venta
+    </title>
+    <meta
+      name="description"
+      content="Agencia internacional de empleo, publicidad, compra y venta"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./assets/css/variables.css" />
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/fontawesome.all.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/sarcasnimation.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav__content">
+        <a href="#" class="nav__name">Workgency</a>
+
+        <div class="nav__collapsed-menu" id="navMenu">
+          <ul class="nav__menu">
+            <li class="nav__list">
+              <a href="#" class="nav__link">Registrar Trabajos</a>
+            </li>
+            <li class="nav__list"><a href="#" class="nav__link">Ventas</a></li>
+            <li class="nav__list">
+              <a href="#" class="nav__link">Arriendos</a>
+            </li>
+          </ul>
+
+          <div class="nav__buttons">
+            <a href="#" class="button__primary">Trabaja con nosotros</a>
+            <a href="#" class="button__secondary">Acceder</a>
+          </div>
+        </div>
+      </div>
+      <button
+        class="button-menu"
+        data-collapsed="navMenu"
+        data-trigger="buttonMenu"
+        id="buttonMenu"
+      >
+        <i
+          class="fas fa-bars"
+          data-trigger="buttonMenu"
+          data-collapsed="navMenu"
+          id="iconButtonMenu"
+        ></i>
+      </button>
+    </nav>
+
+    <header class="header">
+      <div class="header__content">
+        <h1 class="header__heading">
+          <b>Agencia</b> de empleo, <b>Publicidad</b>, Compra y Venta
+        </h1>
+        <form class="header__form">
+          <input
+            type="text"
+            name="search"
+            class="header__search"
+            maxlength="150"
+            required
+            autocomplete="off"
+            placeholder="Encuentra todo lo que deseas"
+          />
+
+          <button class="button__primary">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+
+        <nav class="header__countries">
+          <p class="header__countries-tagline">
+            Tambien puedes buscar en otros paises
+          </p>
+
+          <ul class="header__countries-list">
+            <li class="header__country">
+              <a href="#" class="header__link">
+                <img
+                  src="./assets/img/svg/argentina.svg"
+                  alt="Bandera de Argentina"
+                />
+              </a>
+            </li>
+
+            <li class="header__country">
+              <a href="#" class="header__link">
+                <img
+                  src="./assets/img/svg/brasil.svg"
+                  alt="Bandera de Brasil"
+                />
+              </a>
+            </li>
+
+            <li class="header__country">
+              <a href="#" class="header__link">
+                <img src="./assets/img/svg/chile.svg" alt="Bandera de Chile" />
+              </a>
+            </li>
+
+            <li class="header__country">
+              <a href="#" class="header__link">
+                <img
+                  src="./assets/img/svg/colombia.svg"
+                  alt="Bandera de Colombia"
+                />
+              </a>
+            </li>
+
+            <li class="header__country">
+              <a href="#" class="header__link">
+                <img
+                  src="./assets/img/svg/ecuador.svg"
+                  alt="Bandera de Ecuador"
+                />
+              </a>
+            </li>
+
+            <li class="header__country">
+              <a href="#" class="header__link">
+                <img
+                  src="./assets/img/svg/francia.svg"
+                  alt="Bandera de Francia"
+                />
+              </a>
+            </li>
+
+            <li class="header__country">
+              <a href="#" class="header__link">
+                <img
+                  src="./assets/img/svg/mexico.svg"
+                  alt="Bandera de Mexico"
+                />
+              </a>
+            </li>
+
+            <li class="header__country">
+              <a href="#" class="header__link">
+                <img src="./assets/img/svg/peru.svg" alt="Bandera de Peru" />
+              </a>
+            </li>
+
+            <li class="header__country">
+              <a href="#" class="header__link">
+                <img src="./assets/img/svg/spain.svg" alt="Bandera de España" />
+              </a>
+            </li>
+
+            <li class="header__country">
+              <a href="#" class="header__link">
+                <img src="./assets/img/svg/usa.svg" alt="Bandera de Usa" />
+              </a>
+            </li>
+            <li class="header__country">
+              <a href="#" class="header__link">
+                <img
+                  src="./assets/img/svg/venezuela.svg"
+                  alt="Bandera de Venezuela"
+                />
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <h3 class="header__headline">¡Líderes <b>Internacionales</b>!</h3>
+      </div>
+    </header>
+
+    <main class="main">
+      <h2 class="main__heading">Destacados</h2>
+      <section class="main__jobs" data-sarcasnimation>
+        <article class="main__article">
+          <figure class="main__figure">
+            <img
+              src="./assets/img/jobs/001.jpg"
+              alt="Descripcion dinamica de la foto"
+              class="main__photo"
+            />
+            <a href="#">
+              <figcaption class="main__figcaption">
+                <div class="main__tags">
+                  <span class="main__tag">Empleo</span>
+                  <span class="main__time">Full Time</span>
+                </div>
+
+                <div class="main__desc">
+                  <h2 class="main__title">Oferta de trabajo</h2>
+                  <h3 class="main__pay">$20.000</h3>
+                </div>
+              </figcaption>
+            </a>
+          </figure>
+        </article>
+        <article class="main__article">
+          <figure class="main__figure">
+            <img
+              src="./assets/img/jobs/002.jpg"
+              alt="Descripcion dinamica de la foto"
+              class="main__photo"
+            />
+            <a href="#">
+              <figcaption class="main__figcaption">
+                <div class="main__tags">
+                  <span class="main__tag">Empleo</span>
+                  <span class="main__time">Full Time</span>
+                </div>
+
+                <div class="main__desc">
+                  <h2 class="main__title">Oferta de trabajo</h2>
+                  <h3 class="main__pay">$20.000</h3>
+                </div>
+              </figcaption></a
+            >
+          </figure>
+        </article>
+        <article class="main__article">
+          <figure class="main__figure">
+            <img
+              src="./assets/img/jobs/003.jpg"
+              alt="Descripcion dinamica de la foto"
+              class="main__photo"
+            />
+            <a href="#">
+              <figcaption class="main__figcaption">
+                <div class="main__tags">
+                  <span class="main__tag">Empleo</span>
+                  <span class="main__time">Full Time</span>
+                </div>
+
+                <div class="main__desc">
+                  <h2 class="main__title">Oferta de trabajo</h2>
+                  <h3 class="main__pay">$20.000</h3>
+                </div>
+              </figcaption></a
+            >
+          </figure>
+        </article>
+      </section>
+      <!-- SECTION JOBS END -->
+
+      <section class="main__rents" data-sarcasnimation>
+        <article class="main__article">
+          <figure class="main__figure">
+            <img
+              src="./assets/img/rents/001.jpg"
+              alt="Descripcion dinamica de la foto"
+              class="main__photo"
+            />
+            <a href="#">
+              <figcaption class="main__figcaption">
+                <div class="main__tags">
+                  <span class="main__tag">Alquiler</span>
+                  <span class="main__action">Reservar</span>
+                </div>
+
+                <div class="main__desc">
+                  <h2 class="main__title">Departamento en Zona Norte</h2>
+                  <h3 class="main__pay">$20.100</h3>
+                </div>
+              </figcaption>
+            </a>
+          </figure>
+        </article>
+
+        <article class="main__article">
+          <figure class="main__figure">
+            <img
+              src="./assets/img/rents/002.jpg"
+              alt="Descripcion dinamica de la foto"
+              class="main__photo"
+            />
+            <a href="#">
+              <figcaption class="main__figcaption">
+                <div class="main__tags">
+                  <span class="main__tag">Alquiler</span>
+                  <span class="main__action">Reservar</span>
+                </div>
+
+                <div class="main__desc">
+                  <h2 class="main__title">Departamento en Zona Norte</h2>
+                  <h3 class="main__pay">$20.000</h3>
+                </div>
+              </figcaption></a
+            >
+          </figure>
+        </article>
+      </section>
+    </main>
+    <!-- MAIN END -->
+
+    <aside class="ads">
+      <nav class="ads__list">
+        <figure class="ads__figure">
+          <img
+            src="./assets/img/ads/001.jpg"
+            alt="Descripcion de la Publicidad"
+            class="ads__promo"
+          />
+        </figure>
+
+        <figure class="ads__figure">
+          <img
+            src="./assets/img/ads/002.jpg"
+            alt="Descripcion de la Publicidad"
+            class="ads__promo"
+          />
+        </figure>
+
+        <figure class="ads__figure">
+          <img
+            src="./assets/img/ads/003.jpg"
+            alt="Descripcion de la Publicidad"
+            class="ads__promo"
+          />
+        </figure>
+
+        <figure class="ads__figure">
+          <img
+            src="./assets/img/ads/004.jpg"
+            alt="Descripcion de la Publicidad"
+            class="ads__promo"
+          />
+        </figure>
+
+        <figure class="ads__figure">
+          <img
+            src="./assets/img/ads/005.jpg"
+            alt="Descripcion de la Publicidad"
+            class="ads__promo"
+          />
+        </figure>
+
+        <figure class="ads__figure">
+          <img
+            src="./assets/img/ads/006.jpg"
+            alt="Descripcion de la Publicidad"
+            class="ads__promo"
+          />
+        </figure>
+      </nav>
+    </aside>
+    <!-- ADS END -->
+
+    <section class="job">
+      <form class="job__form">
+        <div class="job__legend">
+          <h2 class="job__heading">¿Buscando un trabajo?</h2>
+          <h3 class="job__headline">Explora cientos de opciones en tu pais</h3>
+        </div>
+
+        <fieldset class="job__group">
+          <select name="select-job" id="selectJob" class="job__select">
+            <option>Buscar</option>
+            <option value="Office">Diseño Grafico</option>
+            <option value="Office">Contabilidad</option>
+          </select>
+
+          <select name="select-region" id="selectRegion" class="job__select">
+            <option>Seleccionar región</option>
+            <option value="City">Region 1</option>
+            <option value="City">Region 2</option>
+          </select>
+        </fieldset>
+      </form>
+    </section>
+    <!-- JOB END -->
+
+    <section class="jobs-results" data-sarcasnimation>
+      <div class="jobs-content">
+        <article class="jobs-results__article">
+          <figure class="jobs-results__figure">
+            <img
+              src="./assets/img/jobs/001.jpg"
+              alt="Descripcion dinamica de la foto"
+              class="jobs-results__photo"
+            />
+            <a href="#">
+              <figcaption class="jobs-results__figcaption">
+                <div class="jobs-results__tags">
+                  <span class="jobs-results__tag">Empleo</span>
+                  <span class="jobs-results__time">Full Time</span>
+                </div>
+
+                <div class="jobs-results__desc">
+                  <h2 class="jobs-results__title">Oferta de trabajo 2021</h2>
+                  <h3 class="jobs-results__pay">$20.000</h3>
+                </div>
+              </figcaption>
+            </a>
+          </figure>
+        </article>
+        <article class="jobs-results__article">
+          <figure class="jobs-results__figure">
+            <img
+              src="./assets/img/jobs/002.jpg"
+              alt="Descripcion dinamica de la foto"
+              class="jobs-results__photo"
+            />
+
+            <a href="#">
+              <figcaption class="jobs-results__figcaption">
+                <div class="jobs-results__tags">
+                  <span class="jobs-results__tag">Empleo</span>
+                  <span class="jobs-results__time">Full Time</span>
+                </div>
+
+                <div class="jobs-results__desc">
+                  <h2 class="jobs-results__title">Oferta de trabajo</h2>
+                  <h3 class="jobs-results__pay">$20.000</h3>
+                </div>
+              </figcaption>
+            </a>
+          </figure>
+        </article>
+        <article class="jobs-results__article">
+          <figure class="jobs-results__figure">
+            <img
+              src="./assets/img/jobs/003.jpg"
+              alt="Descripcion dinamica de la foto"
+              class="jobs-results__photo"
+            />
+            <a href="#">
+              <figcaption class="jobs-results__figcaption">
+                <div class="jobs-results__tags">
+                  <span class="jobs-results__tag">Empleo</span>
+                  <span class="jobs-results__time">Full Time</span>
+                </div>
+
+                <div class="jobs-results__desc">
+                  <h2 class="jobs-results__title">Oferta de trabajo</h2>
+                  <h3 class="jobs-results__pay">$20.000</h3>
+                </div>
+              </figcaption>
+            </a>
+          </figure>
+        </article>
+      </div>
+
+      <span class="jobs-results__infinite-scroll"
+        >Cargar mas resultados...</span
+      >
+    </section>
+    <!-- JOBS RESULTS END -->
+
+    <footer class="footer">
+      <div class="footer__container">
+        <ul class="footer__countries">
+          <li class="footer__country">
+            <a href="#" class="footer__country-link">
+              <img
+                src="./assets/img/svg/argentina.svg"
+                alt="Bandera de Argentina"
+              />
+              Argentina
+            </a>
+          </li>
+          <li class="footer__country">
+            <a href="#" class="footer__country-link">
+              <img src="./assets/img/svg/brasil.svg" alt="Bandera de Brasil" />
+              Brasil
+            </a>
+          </li>
+
+          <li class="footer__country">
+            <a href="#" class="footer__country-link">
+              <img src="./assets/img/svg/chile.svg" alt="Bandera de Chile" />
+              Chile
+            </a>
+          </li>
+
+          <li class="footer__country">
+            <a href="#" class="footer__country-link">
+              <img
+                src="./assets/img/svg/colombia.svg"
+                alt="Bandera de Colombia"
+              />
+              Colombia
+            </a>
+          </li>
+
+          <li class="footer__country">
+            <a href="#" class="footer__country-link">
+              <img
+                src="./assets/img/svg/ecuador.svg"
+                alt="Bandera de Ecuador"
+              />
+              Ecuador
+            </a>
+          </li>
+
+          <li class="footer__country">
+            <a href="#" class="footer__country-link">
+              <img src="./assets/img/svg/spain.svg" alt="Bandera de España" />
+              España
+            </a>
+          </li>
+
+          <li class="footer__country">
+            <a href="#" class="footer__country-link">
+              <img
+                src="./assets/img/svg/usa.svg"
+                alt="Bandera de Estados Unidos"
+              />
+              Estados Unidos
+            </a>
+          </li>
+
+          <li class="footer__country">
+            <a href="#" class="footer__country-link">
+              <img
+                src="./assets/img/svg/francia.svg"
+                alt="Bandera de Francia"
+              />
+              Francia
+            </a>
+          </li>
+
+          <li class="footer__country">
+            <a href="#" class="footer__country-link">
+              <img src="./assets/img/svg/mexico.svg" alt="Bandera de Mexico" />
+              Mexico
+            </a>
+          </li>
+
+          <li class="footer__country">
+            <a href="#" class="footer__country-link">
+              <img src="./assets/img/svg/peru.svg" alt="Bandera de Peru" />
+              Peru
+            </a>
+          </li>
+
+          <li class="footer__country">
+            <a href="#" class="footer__country-link">
+              <img
+                src="./assets/img/svg/venezuela.svg"
+                alt="Bandera de Venezuela"
+              />
+              Venezuela
+            </a>
+          </li>
+        </ul>
+
+        <div class="footer__grid">
+          <div class="footer__about">
+            <h2>Sobre <b>Workgency</b></h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
+              distinctio dicta ducimus, repellat labore nam porro excepturi qui
+              harum explicabo!
+            </p>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+              excepturi distinctio, corrupti quas et eos nostrum natus, eius
+              harum dolore modi. Officiis quibusdam quos accusantium error
+              veritatis dignissimos veniam autem?
+            </p>
+          </div>
+
+          <div class="footer__ssl">
+            <img src="./assets/img/ssl.png" alt="Certificado SSL" />
+          </div>
+        </div>
+        <!-- END GRID -->
+
+        <div class="footer__bookmedia">
+          <p class="footer__copy">
+            &copy; 2021 Workgency Internacional &bullet; Todos los derechos
+            reservados
+          </p>
+
+          <div class="footer__social">
+            <a href="#" class="footer__social-link">
+              <i class="fab fa-facebook"></i>
+            </a>
+
+            <a href="#" class="footer__social-link">
+              <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="#" class="footer__social-link">
+              <i class="fab fa-twitter"></i>
+            </a>
+
+            <a href="#" class="footer__social-link">
+              <i class="fab fa-youtube"></i>
+            </a>
+
+            <a href="#" class="footer__social-link">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <div class="adsbox">
+      <div class="adsbox__container">
+        <a href="#" class="ads__link">
+          <img
+            src="./assets/img/ads/ads.jpg"
+            alt="Descripcion de la foto de publicidad"
+            class="adsbox__post"
+          />
+        </a>
+
+        <i class="fas fa-times" id="buttonCloseModal"></i>
+      </div>
+    </div>
+
+    <script src="./assets/js/main.js" type="module"></script>
+  </body>
+</html>

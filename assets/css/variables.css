@@ -1,0 +1,11 @@
+:root {
+  --primary: #00aaff;
+  --secondary: rgba(0, 0, 0, 0.3);
+  --accent: #d40000;
+  --background: #fff;
+  --foreground: #333;
+  --divider: #ffffff28;
+  --dark: #131313;
+
+  --fz__heading: clamp(18px, 14px + 2.5vw, 24px);
+}
